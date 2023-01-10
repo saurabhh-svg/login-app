@@ -1,0 +1,49 @@
+.Login {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.LoginBox {
+  margin-top: 8rem;
+  width: 350px;
+  height: 400px;
+  background-color: bisque;
+}
+.LoginHeader {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.inputs {
+  padding: 20px;
+}
+.email {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.password {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+.submitButton {
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+}
+
+.submitButton:hover {
+  background-color: #ff0000;
+  color: white;
+}
