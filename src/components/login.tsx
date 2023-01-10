@@ -7,7 +7,11 @@ function login() {
       <div className="LoginBox">
         <div className="LoginHeader">Login</div>
         <div className="inputs">
-          <input className="email" placeholder="Enter your Email" />
+          <input
+            className="email"
+            placeholder="Enter your Email"
+            type="email"
+          />
           <input
             className="password"
             placeholder="Enter your Password"
